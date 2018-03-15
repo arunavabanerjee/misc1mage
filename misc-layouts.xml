@@ -4,6 +4,7 @@
 
 --------------------------------------------------------------------------------
 /// add a new js in skin
+/// /app/design/frontend/{design package}/{theme}/layout/local.xml
 /// local.xml
 <?xml version="1.0"?>
  <layout version="0.1.0">
