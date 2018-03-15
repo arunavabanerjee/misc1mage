@@ -1,4 +1,8 @@
 
+/// add js from template file
+<script type="text/javascript" src="<?php echo $this->getSkinUrl(); ?>js/custom-script.js"></script>
+
+--------------------------------------------------------------------------------
 /// add a new js in skin
 /// local.xml
 <?xml version="1.0"?>
