@@ -1,0 +1,22 @@
+//config file
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <MG1Override_OverrideCart>
+      <version>0.1.0</version>
+    </MG1Override_OverrideCart>
+  </modules>
+
+  <frontend>
+    <routers>
+      <checkout>
+        <args>
+	 <modules>
+	    <MG1Override_OverrideCart before="Mage_Checkout">MG1Override_OverrideCart</MG1Override_OverrideCart>
+         </modules>
+        </args>
+      </checkout>
+    </routers>
+  </frontend>
+
+</config>
