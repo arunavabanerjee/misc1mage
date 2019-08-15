@@ -1,0 +1,6 @@
+
+Development
+--------------
+a. Disable cache - admin > advanced paramaters > performance > disable cache
+b. Recompile template files after change. 
+c. 
